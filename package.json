@@ -1,0 +1,22 @@
+{
+    "name": "mononoke",
+    "displayName": "mononoke",
+    "description": "A theme bruh",
+    "version": "0.0.1",
+    "publisher": "moi",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "mononoke",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mononoke-color-theme.json"
+            }
+        ]
+    }
+}
