@@ -65,7 +65,7 @@
 		"editorSuggestWidget.background": "#1f3d3b",
 		"editorSuggestWidget.border": "#121824",
 		"editorSuggestWidget.highlightForeground": "#ffd580",
-		"editorSuggestWidget.selectedBackground": "#1c222e",
+		"editorSuggestWidget.selectedBackground": "#1b3533",
 		"editorWarning.foreground": "#ffd580",
 		"editorWhitespace.foreground": "#39424e",
 		"editorWidget.background": "#1f3d3b",
@@ -90,15 +90,15 @@
 		"inputValidation.infoBorder": "#5ccfe6",
 		"inputValidation.warningBackground": "#1f3d3b",
 		"inputValidation.warningBorder": "#ffd580",
-		"list.activeSelectionBackground": "#284246",
+		"list.activeSelectionBackground": "#202f316c",
 		"list.activeSelectionForeground": "#eeffe1",
-		"list.focusBackground": "#284246",
+		"list.focusBackground": "#202f316c",
 		"list.focusForeground": "#eeffe188",
 		"list.highlightForeground": "#ffd580",
-		"list.hoverBackground": "#284246",
+		"list.hoverBackground": "#202f316c",
 		"list.hoverForeground": "#eeffe1",
-		"list.inactiveSelectionBackground": "#284246",
-		"list.inactiveSelectionForeground": "#eeffe188",
+		"list.inactiveSelectionBackground": "#202f316c",
+		"list.inactiveSelectionForeground": "#eeffe1",
 		"list.invalidItemForeground": "#515c69",
 		"panel.background": "#1f3d3b",
 		"panel.border": "#1f3d3b",
@@ -180,22 +180,23 @@
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment",
-				"punctuation.separator",
-				"punctuation.terminator",
-				"punctuation.definition.annotation"
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#c9d3de88"
+				"foreground": "#a2e2be88"
 			}
 		},
 		{
 			"name": "Punctuation",
 			"scope": [
+				"punctuation.definition.comment",
+				"punctuation.separator",
+				"punctuation.terminator",
+				"punctuation.definition.annotation",
+				"punctuation.definition.markdown"
 			],
 			"settings": {
-				"foreground": "#eeffe1"
+				"foreground": "#a2e2be88"
 			}
 		},
 		{
