@@ -3,7 +3,7 @@
     "displayName": "mononoke",
     "description": "A theme bruh",
     "version": "0.0.1",
-    "publisher": "moi",
+    "publisher": "fannar",
     "engines": {
         "vscode": "^1.28.0"
     },
