@@ -35,8 +35,8 @@
 		"editor.selectionHighlightBorder": "#345c4c6e",
 		"editor.wordHighlightBackground": "#4b7e69",
 		"editor.wordHighlightStrongBackground": "#ffd58033",
-		"editorBracketMatch.border": "#8c9b57",
-		"editorBracketMatch.background": "#8c9b57",
+		"editorBracketMatch.border": "#9c9b57aa",
+		"editorBracketMatch.background": "#9c9b57aa",
 		"editorCursor.foreground": "#ffd580",
 		"editorError.foreground": "#ff3333",
 		"editorGroup.emptyBackground": "#1f3d3b",
@@ -211,7 +211,6 @@
 				"meta.method.declaration.js"
 			],
 			"settings": {
-				// "foreground": "#dbddc5"
 				"foreground": "#fafbdc"
 			}
 		},
@@ -248,7 +247,6 @@
 				"punctuation.definition.tag.begin",
 				"punctuation.definition.tag",
 				"support.variable.dom.js",
-				"storage",
 				"storage.type",
 				"support.constant",
 				"support.function",
@@ -275,14 +273,14 @@
 		{
 			"name": "Function name",
 			"scope": [
-				
+				"storage",
 				"variable.function",
 				"variable.annotation",
 				"meta.function-call.generic",
 				"source.ruby variable.other.readwrite",
+				"constant.language",
 				"entity.name.import",
 				"entity.name.package",
-				"constant.language"
 
 			],
 			"settings": {
