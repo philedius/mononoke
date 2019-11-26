@@ -2,7 +2,7 @@
     "name": "theme-mononoke",
     "displayName": "mononoke",
     "description": "A theme bruh",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "fannar",
     "engines": {
         "vscode": "^1.28.0"
