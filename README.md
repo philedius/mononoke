@@ -1,4 +1,6 @@
 # mononoke
-VS Code theme inspired by the movie Princess Mononoke. 
+A theme inspired by the movie Princess Mononoke. 
 
-Work in progress.
+![Screenshot](./screenshot.png)
+
+Get's updated once in a while when I feel like tweaking it a bit.
